@@ -1,0 +1,125 @@
+######################## default configuration ####################
+baseURL = "https://examplesite.com"
+title = "Touchy Hugo | Minimal Blog Theme"
+theme = "touchy-hugo"
+# post pagination
+paginate = "3"
+# post excerpt
+summaryLength = "50"
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# disqus short name
+disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+unsafe= true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+attributes = "media='screen'"
+
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css2?family=Crimson+Text&family=Raleway:wght@400;500;600&display=swap"
+attributes = ""
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/turbolinks/turbolinks.js"
+attributes = ""
+
+
+###################### Navigation ###########################
+
+# main menu
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 1
+  
+[[menu.main]]
+name = "Elemetns"
+url = "elements"
+weight = 2
+  
+[[menu.main]]
+name = "Terms & Conditions"
+url = "terms-conditions"
+weight = 3
+  
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 4
+
+#################### default parameters ############################
+[params]
+logo = "images/logo.png"
+logo_width = "100px"
+favicon = "images/favicon.png"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact info
+address = "9567 Turner Trace Apt. BC C3G8A4"
+mobile = "+211234565523"
+email = "info@email.com"
+# copyright
+copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
+# custom script on header
+custom_script= ""
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "#"

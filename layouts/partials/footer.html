@@ -1,0 +1,81 @@
+<footer class="section-sm pb-3 border-top border-default">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<a class="text-dark h3" href="{{ site.BaseURL | relLangURL }}">
+					{{ if site.Params.logo }}
+					<img class="img-fluid" width="{{site.Params.logo_width}}" src="{{ site.Params.logo | absURL}}"
+						alt="{{ site.Title }}">
+					{{ else }}
+					{{site.Title}}
+					{{ end }}
+				</a>
+				<ul class="list-inline mt-5 social-icons">
+					{{ range site.Params.social }}
+					<li class="list-inline-item mx-3"><a href="{{.link | safeURL}}"><i class="{{.icon}}"></i></a></li>
+					{{ end }}
+				</ul>
+				<p class="mt-4 content">{{site.Params.copyright | markdownify}}</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- JS Plugins -->
+{{ $permalink:= .Permalink }}
+{{ range site.Params.plugins.js}}
+{{ if eq $permalink (.page | lower | urlize | absURL ) }}
+<script src="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}></script>
+{{ else if eq .page "/"}}
+<script src="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}></script>
+{{ end }}
+{{ end }}
+
+<!-- Main Script -->
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+
+<!-- cookie -->
+{{ if site.Params.cookies.enable }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button"
+		class="btn btn-sm btn-outline-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires: {{site.Params.cookies.expire_days}}
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+<!-- cookie style -->
+<style>
+	.cookie-box {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		text-align: center;
+		z-index: 9999;
+		padding: 1rem 2rem;
+		background: rgb(71, 71, 71);
+		transition: all .75s cubic-bezier(.19, 1, .22, 1);
+		color: #fdfdfd;
+	}
+
+	.cookie-box-hide {
+		display: none;
+	}
+</style>
+{{ end }}
