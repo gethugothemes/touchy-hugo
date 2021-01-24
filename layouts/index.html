@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
-        {{ $paginator:= .Paginate (where site.RegularPages "Section" "post" )}}
+        {{ $paginator:= .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections )}}
         {{ range $paginator.Pages }}
         {{ .Render "post" }}
         {{ end }}

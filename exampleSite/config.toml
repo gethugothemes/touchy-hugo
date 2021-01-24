@@ -87,6 +87,8 @@ email = "info@email.com"
 copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
 # custom script on header
 custom_script= ""
+# main sections
+mainSections = ["post"]
 
 # Preloader
 [params.preloader]
