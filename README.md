@@ -26,7 +26,7 @@ Check out [Live Demo](http://demo.themefisher.com/meghna-hugo/en/)
 Build your website with **Touchy Hugo** theme by following these easy steps(No Coding Required!)
 
 _Checkout this video tutorial_
-<a href="https://youtu.be/ResipmZmpDU" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/103056582-88270880-45c7-11eb-9124-ab17bae951ec.png"></a>
+<a href="https://youtu.be/ResipmZmpDU" target="_blank" title="touchy hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/103056582-88270880-45c7-11eb-9124-ab17bae951ec.png"></a>
 
 In this tutorial, we will show you to make your website live without buying any hosting and touching a single line of code.
 
@@ -47,7 +47,7 @@ declare your config.toml file from `exampleSite` directory and fill up basic set
 Now mark everything as done. Then go to configuration to change the base url. You can put any url but this have to be similar as netlify. So, for now, put a name which you are going to put in netlify as netlify subdomain.
 
 ### Step 3 : Setup and host website with Netlify
-Here comes the last step . Go to your [netlify](https://netlify.com) account and click add new site . Choose your git repository to import your website in netlify .  And now you can see the forked `meghna hugo` theme. select it and follow the steps. Then go to `site settings` for change the site name. save it and go to `deploy` from top menu, Wait a while and click on `site preview` or just simply go to the subdomain you puted as base url.
+Here comes the last step . Go to your [netlify](https://netlify.com) account and click add new site . Choose your git repository to import your website in netlify .  And now you can see the forked `touchy hugo` theme. select it and follow the steps. Then go to `site settings` for change the site name. save it and go to `deploy` from top menu, Wait a while and click on `site preview` or just simply go to the subdomain you puted as base url.
 
 **Or just click this button to connect netlify** [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gethugothemes/touchy-hugo)
 
@@ -62,16 +62,16 @@ At the top we have shown an easy hugo installation. But if you still think you w
 $ git clone git@github.com:gethugothemes/touchy-hugo.git
 ```
 
-* Go to exampleSite dict and run hugo server
+* Go to exampleSite and run hugo server
 ```
-$ cd meghna-hugo/exampleSite/
+$ cd touchy-hugo/exampleSite/
 $ hugo server --themesDir ../..
 ```
 Or Check out [Full Documentation](https://docs.gethugothemes.com/touchy/?ref=github).
 
 <!-- reporting issue -->
 ## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing issues](https://github.com/gethugothemes/touchy-hugo/issues). It’s possible someone has already reported the same problem.
+We use GitHub Issues as the official bug tracker for the Touchy Template. Please Search [existing issues](https://github.com/gethugothemes/touchy-hugo/issues). It’s possible someone has already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/gethugothemes/touchy-hugo/issues).
 
 <!-- support -->
