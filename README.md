@@ -17,9 +17,9 @@ A clean and minimal Hugo blog theme for single author. This theme can showcase y
 <!-- demo -->
 ## Example Site
 
-<img src="https://user-images.githubusercontent.com/37659754/54068559-44d79a80-4278-11e9-9601-f58d6879989c.gif" alt="screenshot" width="100%">
+![touchy](images/screenshot.png)
 
-Check out [Live Demo](http://demo.themefisher.com/meghna-hugo/en/)
+👉Check out [Live Demo](http://demo.gethugothemes.com/touchy/)
 
 <!-- easy setup -->
 ## Easy Setup (Hugo + Netlify + Forestry)
