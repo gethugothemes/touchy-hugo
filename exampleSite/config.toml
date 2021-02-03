@@ -26,18 +26,18 @@ unsafe= true
 link = "https://fonts.googleapis.com/css2?family=Crimson+Text&family=Raleway:wght@400;500;600&display=swap"
 attributes = "media"
 
-[[params.plugins.css]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css"
-attributes = "media"
-
-[[params.plugins.css]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/brands.min.css"
-attributes = "media"
-
 # JS Plugins
 [[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/brands.min.js"
+attributes = "defer"
+
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/brands.min.js"
+attributes = "defer"
+
+[[params.plugins.js]]
 link = "plugins/turbolinks/turbolinks.js"
-attributes = "data-turbolinks-suppress-warning async"
+attributes = "data-turbolinks-suppress-warning defer"
 
 ###################### Navigation ###########################
 
