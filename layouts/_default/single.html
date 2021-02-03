@@ -15,7 +15,7 @@
             <h3 class="my-3">{{.Title}}</h3>
             <span class="post-date">{{.PublishDate.Format "02 Jan, 2006"}}</span>
           </div>
-          <img loading="lazy" class="img-fluid" src="{{ .Params.image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image | absURL }}'">
+          <img loading="lazy" class="img-fluid" src="{{ .Params.image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image | absURL }}'" alt="{{.Title}}">
           <div class="card-body px-0">
             <div class="content text-left">
               {{.Content}}
