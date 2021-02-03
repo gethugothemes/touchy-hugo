@@ -24,20 +24,20 @@ unsafe= true
 # CSS Plugins
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Crimson+Text&family=Raleway:wght@400;500;600&display=swap"
-attributes = ""
+attributes = "media"
 
 [[params.plugins.css]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css"
-attributes = ""
+attributes = "media"
 
 [[params.plugins.css]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/brands.min.css"
-attributes = ""
+attributes = "media"
 
 # JS Plugins
 [[params.plugins.js]]
 link = "plugins/turbolinks/turbolinks.js"
-attributes = "data-turbolinks-suppress-warning"
+attributes = "data-turbolinks-suppress-warning async"
 
 ###################### Navigation ###########################
 
