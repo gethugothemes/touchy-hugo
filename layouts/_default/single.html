@@ -15,15 +15,7 @@
             <h3 class="my-3">{{.Title}}</h3>
             <span class="post-date">{{.PublishDate.Format "02 Jan, 2006"}}</span>
           </div>
-          {{ $imagePath:= .Params.image }}
-          {{ if (fileExists (add "assets/" $imagePath)) }}
-          {{ $image:= resources.Get $imagePath }}
-          {{ $imageResize:= $image.Fill "800x400" }}
-          {{ .Scratch.Set "image" $imageResize.RelPermalink }}
-          {{ else }}
-          {{ .Scratch.Set "image" ($imagePath | absURL) }}
-          {{ end }}
-          <img loading="lazy" src="{{.Scratch.Get `image`}}" alt="{{ .Title }}" class="img-fluid">
+          <img loading="lazy" class="img-fluid" src="{{ .Params.image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image | absURL }}'">
           <div class="card-body px-0">
             <div class="content text-left">
               {{.Content}}

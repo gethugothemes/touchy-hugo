@@ -47,11 +47,14 @@ a.post-title:hover {
 /* blog */
 .pagination {
   justify-content: center;
-
+  display: flex;
+  padding-left: 0;
   .page-item {
+    list-style-type: none;
     .page-link {
       display: inline-block;
       width: 40px;
+      line-height: 35px;
       height: 40px;
       border-radius: 0;
       border: 1px solid $border-color;
@@ -59,7 +62,6 @@ a.post-title:hover {
       margin-right: 6px;
       font-weight: 600;
       color: $primary-color;
-      line-height: 1.5;
       &:hover {
         background: $primary-color;
         color: $white;
@@ -118,12 +120,16 @@ a.post-title:hover {
 
       &::before {
         position: absolute;
-        content: "\e65d";
+        content: "";
         font-family: $icon-font;
         font-size: 14px;
         left: 0;
-        top: 1px;
+        top: 5px;
         color: $primary-color;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: $primary-color;
         transition: .3s ease;
       }
     }
@@ -160,9 +166,10 @@ a.post-title:hover {
   blockquote {
     border-left: 1px solid $primary-color;
     padding: 20px;
+    margin-left: 0;
 
     p {
-      margin-bottom: 0;
+      margin: 0;
       color: $text-color;
       font-style: italic;
       font-size: 22px;

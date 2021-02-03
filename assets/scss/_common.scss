@@ -10,18 +10,6 @@ body {
 
 /* preloader */
 
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: $body-color;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 img {
   vertical-align: middle;
@@ -58,7 +46,8 @@ a:hover {
 .section {
   padding-top: 100px;
   padding-bottom: 100px;
-  &-sm{
+
+  &-sm {
     padding-top: 70px;
     padding-bottom: 70px;
   }
@@ -68,44 +57,39 @@ a:hover {
   }
 }
 
-.bg-cover {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
 
-.border-default{
+.border-default {
   border-color: $border-color !important;
 }
 
-.breadcrumb{
+.breadcrumb {
   background-color: transparent;
   justify-content: center;
-  &-item{
+  display: flex;
+  padding-left: 0;
+
+  &-item {
     font-family: $primary-font;
+    list-style-type: none;
     letter-spacing: 2px;
     font-size: 10px;
     font-weight: 600;
-    a{
+    position: relative;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+
+      &::before {
+        position: absolute;
+        content: ">";
+        right: -10px;
+        top: 0;
+      }
+    }
+
+    a {
       color: $primary-color;
     }
-  }
-}
-
-/* overlay */
-
-.overlay {
-  position: relative;
-
-  &::before {
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: $black;
-    opacity: .5;
   }
 }
 
@@ -119,4 +103,17 @@ a:hover {
 
 .text-default {
   color: $text-color !important;
+}
+
+.list-inline {
+  padding-left: 0;
+
+  &-item {
+    list-style-type: none;
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
 }

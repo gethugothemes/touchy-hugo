@@ -1,7 +1,8 @@
 ---
 title: "Shoot Utra Smooth Video"
 date: 2020-09-01T11:07:10+06:00
-image: "images/post/post-3.jpg"
+image: "images/blog/blog-3.jpg"
+image_webp: "images/blog/blog-3.webp"
 description: "this is meta description"
 categories: ["videography"]
 draft: false

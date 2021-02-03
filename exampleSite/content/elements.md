@@ -157,7 +157,7 @@ Markdown | Less | Pretty
 
 ##### Image
 
-![image](../../images/post/post-1.jpg)
+![image](../../images/blog/blog-1.jpg)
 
 <hr>
 

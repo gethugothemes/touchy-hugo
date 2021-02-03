@@ -23,30 +23,21 @@ unsafe= true
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-attributes = "media='screen'"
-
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
+link = "https://fonts.googleapis.com/css2?family=Crimson+Text&family=Raleway:wght@400;500;600&display=swap"
 attributes = ""
 
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Crimson+Text&family=Raleway:wght@400;500;600&display=swap"
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/brands.min.css"
 attributes = ""
 
 # JS Plugins
 [[params.plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
-attributes = ""
-
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-attributes = ""
-
-[[params.plugins.js]]
 link = "plugins/turbolinks/turbolinks.js"
-attributes = ""
-
+attributes = "data-turbolinks-suppress-warning"
 
 ###################### Navigation ###########################
 
@@ -87,13 +78,6 @@ email = "info@email.com"
 copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
 # custom script on header
 custom_script= ""
-# main sections
-mainSections = ["post"]
-
-# Preloader
-[params.preloader]
-enable = false
-preloader = "" # use jpg, png, svg or gif format.
 
 # cookies
 [params.cookies]
@@ -103,25 +87,25 @@ expire_days = 2
 ############################# social site ########################
 [[params.social]]
 title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
 link = "#"
 
 [[params.social]]
 title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
 link = "#"
 
 [[params.social]]
 title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
 link = "#"
 
 [[params.social]]
 title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
 link = "#"
 
 [[params.social]]
 title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
 link = "#"

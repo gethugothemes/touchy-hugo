@@ -1,7 +1,8 @@
 ---
 title: "The World Ppopulation"
 date: 2020-09-01T11:07:10+06:00
-image: "images/post/post-6.jpg"
+image: "images/blog/blog-6.jpg"
+image_webp: "images/blog/blog-6.webp"
 description: "this is meta description"
 categories: ["population"]
 draft: false
