@@ -28,7 +28,7 @@ attributes = "media"
 
 # JS Plugins
 [[params.plugins.js]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/brands.min.js"
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/fontawesome.min.js"
 attributes = "defer"
 
 [[params.plugins.js]]

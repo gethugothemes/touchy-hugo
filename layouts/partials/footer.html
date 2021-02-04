@@ -12,7 +12,7 @@
 				</a>
 				<ul class="list-inline mt-5 social-icons">
 					{{ range site.Params.social }}
-					<li class="list-inline-item mx-3"><a href="{{.link | safeURL}}"><i class="{{.icon}}"></i></a></li>
+					<li class="list-inline-item mx-3"><a title="{{.name}}" href="{{.link | safeURL}}"><i class="{{.icon}}"></i></a></li>
 					{{ end }}
 				</ul>
 				<p class="mt-4 content">{{site.Params.copyright | markdownify}}</p>

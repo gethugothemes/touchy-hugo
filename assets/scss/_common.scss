@@ -117,3 +117,7 @@ a:hover {
     }
   }
 }
+
+a:not([href]) {
+  display: none !important;
+}
