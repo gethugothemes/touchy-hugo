@@ -1,4 +1,4 @@
-<h1 align=center>Touchy Hugo Theme | <a target="_blank" href="https://demo.gethugothemes.com/touchy" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftouchy%2F">Page Speed (87%)</a></h1>
+<h1 align=center>Touchy Hugo | <a target="_blank" href="https://demo.gethugothemes.com/touchy" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftouchy%2F">Page Speed (87%)</a></h1>
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.58.0" alt="Contributors">
@@ -26,14 +26,14 @@
 
 ---
 ## Features
-- Open graph meta tag
-- Twitter card meta tag
 - Google analytics  support
-- CSS and js bundle with hugo pipe
+- CSS and jS bundle with hugo pipe
 - Netlify settings predefine
 - Forestry cms pre-configured
-- GDPR consent enabled
+- GDPR consent enable
 - Google page speed optimized ( 87% )
+- Open graph meta tag
+- Twitter card meta tag
 
 
 ## Local development
@@ -76,12 +76,12 @@ Build your website with **Touchy** theme by following these easy steps (No Codin
 We use GitHub Issues as the official bug tracker for the touchy Template. Please Search [existing
 issues](https://github.com/gethugothemes/touchy-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
-issue](https://github.com/gethugothemes/touchy-hugo/issues/new).
+issue](https://github.com/gethugothemes/touchy-hugo/issues).
 
 <!-- ## Touchy theme Powered Websites
 
 
-View all the websites powered by Touchy theme [here](https://github.com/gethugothemes/touchy-hugo/wiki/All-Touchy-Hugo-theme-Powered-Websites). Want to submit your own website powered by Touchy theme? You can submit it [here](https://github.com/gethugothemes/touchy-hugo/discussions). -->
+View all the websites powered by Touchy theme [here](https://github.com/gethugothemes/touchy-hugo/wiki/All-Touchy-Hugo-theme-Powered-Websites). Want to submit your own website powered by Touchy theme? You can submit it [here](https://github.com/gethugothemes/touchy-hugo/discussions/4). -->
 
 <!-- licence -->
 ## License
@@ -95,9 +95,9 @@ share those images.
 
 <!-- resources -->
 ## Special Thanks
-- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+- [Bootstrap](https://getbootstrap.com)
 - [Font Awesome Icons](https://fontawesome.com)
-- [Google Fonts](http://fonts.google.com/)
+- [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/gethugothemes/touchy-hugo/graphs/contributors)
 
 
