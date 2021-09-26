@@ -20,8 +20,7 @@
 ---
 
 <p align="center">
-
-![touchy](images/screenshot.png)
+  <img src="https://demo.gethugothemes.com/thumbnails/touchy.webp" alt="screenshot" width="100%">
 </p>
 
 ---
