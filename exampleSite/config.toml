@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://demo.gethugothemes.com/touchy/examplesite/"
 title = "Touchy Hugo | Minimal Blog Theme"
 theme = "touchy-hugo"
 # post pagination
@@ -17,7 +17,7 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 home = ["HTML", "RSS"]
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
 
 ############################# Plugins ##############################
 
@@ -44,22 +44,22 @@ attributes = "data-turbolinks-suppress-warning defer"
 # main menu
 [[menu.main]]
 name = "About"
-url = "about"
+url = "about/"
 weight = 1
-  
+
 [[menu.main]]
 name = "Elemetns"
-url = "elements"
+url = "elements/"
 weight = 2
-  
+
 [[menu.main]]
 name = "Terms & Conditions"
-url = "terms-conditions"
+url = "terms-conditions/"
 weight = 3
-  
+
 [[menu.main]]
 name = "Contact"
-url = "contact"
+url = "contact/"
 weight = 4
 
 #################### default parameters ############################
@@ -77,7 +77,7 @@ email = "info@email.com"
 # copyright
 copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
 # custom script on header
-custom_script= ""
+custom_script = ""
 
 # cookies
 [params.cookies]

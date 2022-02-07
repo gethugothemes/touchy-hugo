@@ -10,7 +10,7 @@
         <article class="card text-center post-card mb-4">
           <div class="card-header bg-transparent border-0">
             {{ range .Params.categories }}
-            <a class="post-meta" href="{{`categories/` | absURL}}{{. | lower | urlize}}">{{.| humanize}}</a>
+            <a class="post-meta" href="{{`categories/` | absURL}}{{. | lower | urlize}}/">{{.| humanize}}</a>
             {{ end }}
             <h3 class="my-3">{{.Title}}</h3>
             <span class="post-date">{{.PublishDate.Format "02 Jan, 2006"}}</span>
