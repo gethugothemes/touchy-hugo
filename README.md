@@ -20,11 +20,13 @@
 ---
 
 <p align="center">
-  <img src="https://demo.gethugothemes.com/thumbnails/touchy.webp" alt="screenshot" width="100%">
+  <img src="https://demo.gethugothemes.com/thumbnails/touchy.png" alt="screenshot" width="100%">
 </p>
 
 ---
+
 ## Features
+
 - Google analytics  support
 - CSS and jS bundle with hugo pipe
 - Netlify settings predefine
@@ -33,7 +35,6 @@
 - Google page speed optimized ( 87% )
 - Open graph meta tag
 - Twitter card meta tag
-
 
 ## Local development
 
@@ -47,6 +48,7 @@ $ cd touchy-hugo/exampleSite/
 # Start local dev server
 $ hugo server --themesDir ../..
 ```
+
 Or Check out [Full Documentation](https://docs.gethugothemes.com/touchy/?ref=github).
 
 ## Content Management System
@@ -59,6 +61,7 @@ repository in Forestry](https://app.forestry.io/quick-start?repo=gethugothemes/t
 you will be able to edit and preview your site ✨.
 
 Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
+
 ## Deployment and hosting
 
 [![Deploy to
@@ -67,11 +70,13 @@ Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com
 Follow the steps.
 
 ## Prefer a video? (Hugo + Netlify + Forestry)
+
 Build your website with **Touchy** theme by following these easy steps (No Coding Required!)
 [Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the touchy Template. Please Search [existing
 issues](https://github.com/gethugothemes/touchy-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
@@ -79,11 +84,11 @@ issue](https://github.com/gethugothemes/touchy-hugo/issues).
 
 <!-- ## Touchy theme Powered Websites
 
-
 View all the websites powered by Touchy theme [here](https://github.com/gethugothemes/touchy-hugo/wiki/All-Touchy-Hugo-theme-Powered-Websites). Want to submit your own website powered by Touchy theme? You can submit it [here](https://github.com/gethugothemes/touchy-hugo/discussions/4). -->
 
 <!-- licence -->
 ## License
+
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
 
@@ -94,20 +99,22 @@ share those images.
 
 <!-- resources -->
 ## Special Thanks
+
 - [Bootstrap](https://getbootstrap.com)
 - [Font Awesome Icons](https://fontawesome.com)
 - [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/gethugothemes/touchy-hugo/graphs/contributors)
 
-
 ## Hire Us
-Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo. 
 
-If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our 
+Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
+
+If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
 [Services](https://gethugothemes.com/services/?utm_source=touchy_github&utm_medium=referral&utm_campaign=github_theme_readme)**
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle/?utm_source=touchy_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![editor](https://demo.gethugothemes.com/thumbnails/editor.webp)](https://gethugothemes.com/products/editor/) | [![parsa](https://demo.gethugothemes.com/thumbnails/parsa.webp)](https://gethugothemes.com/products/parsa-hugo/) |
+
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=touchy_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![editor](https://demo.gethugothemes.com/thumbnails/editor.png)](https://gethugothemes.com/products/editor/) | [![parsa](https://demo.gethugothemes.com/thumbnails/parsa.png)](https://gethugothemes.com/products/parsa-hugo/) |
 |:---:|:---:|:---:|
 | **Get 50+ Premium Hugo Themes Bundle** | **Editor** | **Parsa** |
