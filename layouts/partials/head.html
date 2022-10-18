@@ -16,6 +16,8 @@ AUTHOR WEBSITE: https://gethugothemes.com
   <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with site.Params.author }}
   <meta name="author" content="{{ . }}">{{ end }}
+  <!-- theme meta -->
+  <meta name="theme-name" content="touchy-hugo" />
   {{ hugo.Generator }}
   
   <!-- Custom stylesheet - for your changes -->
