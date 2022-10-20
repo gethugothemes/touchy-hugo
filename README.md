@@ -36,7 +36,7 @@
 - Netlify settings predefine
 - Forestry cms pre-configured
 - GDPR consent enable
-- Google page speed optimized ( 87% )
+- Google page speed optimized
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -86,9 +86,13 @@ issues](https://github.com/gethugothemes/touchy-hugo/issues). Someone may have a
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/gethugothemes/touchy-hugo/issues).
 
-<!-- ## Touchy theme Powered Websites
+## Submit Your Website To Our Showcase
 
-View all the websites powered by Touchy theme [here](https://github.com/gethugothemes/touchy-hugo/wiki/All-Touchy-Hugo-theme-Powered-Websites). Want to submit your own website powered by Touchy theme? You can submit it [here](https://github.com/gethugothemes/touchy-hugo/discussions/4). -->
+Are you using Touchy Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
+
+Our showcase aims to demonstrate to the world what amazing websites people like you have created utilizing our Hugo themes and to show that Hugo has tremendous capabilities as a Static Site Generator.  
+
+[Submit](https://gethugothemes.com/showcase?submit=show) your Touchy Hugo powered website.
 
 <!-- licence -->
 ## License
