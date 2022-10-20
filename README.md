@@ -1,4 +1,8 @@
-<h1 align=center>Touchy Hugo | <a target="_blank" href="https://demo.gethugothemes.com/touchy" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftouchy%2F">Page Speed (87%)</a></h1>
+<h1 align=center>Touchy Hugo </h1>
+<p align=center>Touchy is a minimal personal blog theme powered by Hugo. This theme is 100% mobile responsive. </p>
+
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/touchy/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftouchy%2Fsite%2F&form_factor=desktop">Page Speed (89%)</a> </h2>
+
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.58.0" alt="Contributors">
@@ -25,7 +29,7 @@
 
 ---
 
-## Features
+## Key Features
 
 - Google analytics  support
 - CSS and jS bundle with hugo pipe
@@ -115,6 +119,6 @@ If you need to customize the theme or complete website development from scratch,
 <!-- premium themes -->
 ## Premium Themes By Us
 
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=touchy_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![editor](https://demo.gethugothemes.com/thumbnails/editor.png)](https://gethugothemes.com/products/editor/) | [![parsa](https://demo.gethugothemes.com/thumbnails/parsa.png)](https://gethugothemes.com/products/parsa-hugo/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=touchy_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![editor](https://demo.gethugothemes.com/thumbnails/editor.png)](https://gethugothemes.com/products/editor/) | [![parsa](https://demo.gethugothemes.com/thumbnails/parsa.png)](https://gethugothemes.com/products/parsa-hugo/) |
 |:---:|:---:|:---:|
-| **Get 50+ Premium Hugo Themes Bundle** | **Editor** | **Parsa** |
+| **Get 55+ Premium Hugo Themes Bundle** | **Editor** | **Parsa** |
