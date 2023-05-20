@@ -1,7 +1,7 @@
 <h1 align=center>Touchy Hugo </h1>
 <p align=center>Touchy is a minimal personal blog theme powered by Hugo. This theme is 100% mobile responsive. </p>
 
-<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/touchy/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftouchy%2Fsite%2F&form_factor=desktop">Page Speed (89%)</a> </h2>
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/touchy/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftouchy%2Fsite%2F&form_factor=desktop">Page Speed (89%)🚀</a> </h2>
 
 
 <p align=center>
@@ -21,26 +21,35 @@
     <img src="https://img.shields.io/twitter/follow/gethugothemes?style=social&logo=twitter" alt="follow on Twitter"></a>
 </p>
 
----
 
 <p align="center">
   <img src="https://demo.gethugothemes.com/thumbnails/touchy.png" alt="screenshot" width="100%">
 </p>
 
----
+## 🔑Key Features
 
-## Key Features
+- 📄 5+ Pre-Designed Pages
+- 📊 Google Analytics support
+- 🎨 CSS and JS bundle with Hugo Pipe
+- 🅱️ Bootstrap Based
+- ⚙️ Netlify settings predefine
+- 🔄 GDPR consent enabled
+- 🚀 Google Page Speed optimized
+- 🌐 Open Graph meta tag
+- 🐦 Twitter Card meta tag
 
-- Google analytics  support
-- CSS and jS bundle with hugo pipe
-- Netlify settings predefine
-- Forestry cms pre-configured
-- GDPR consent enable
-- Google page speed optimized
-- Open graph meta tag
-- Twitter card meta tag
+## 📄 5+ Pre-Designed Pages
 
-## Local development
+- 📄 Blog Single Page
+- 🏢 About Page
+- 🧩 Elements Page
+- 📜 Terms and Conditions Page
+- 📧 Contact Page
+
+
+
+
+## 🔧Local development
 
 ```bash
 # clone the repository
@@ -55,7 +64,7 @@ $ hugo server --themesDir ../..
 
 Or Check out [Full Documentation](https://docs.gethugothemes.com/touchy/?ref=github).
 
-## Content Management System
+## 📋Content Management System
 
 [![import to
 Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=gethugothemes/touchy-hugo&engine=hugo&version=0.87.0)
@@ -66,27 +75,27 @@ you will be able to edit and preview your site ✨.
 
 Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
 
-## Deployment and hosting
+## ⚙️Deployment and hosting
 
 [![Deploy to
 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gethugothemes/touchy-hugo)
 
 Follow the steps.
 
-## Prefer a video? (Hugo + Netlify + Forestry)
+## 🎥Prefer a video? (Hugo + Netlify + Forestry)
 
 Build your website with **Touchy** theme by following these easy steps (No Coding Required!)
 [Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
-## Reporting Issues
+## 🐞Reporting Issues
 
 We use GitHub Issues as the official bug tracker for the touchy Template. Please Search [existing
 issues](https://github.com/gethugothemes/touchy-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/gethugothemes/touchy-hugo/issues).
 
-## Submit Your Website To Our Showcase
+## 📱Submit Your Website To Our Showcase
 
 Are you using Touchy Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
 
@@ -95,7 +104,7 @@ Our showcase aims to demonstrate to the world what amazing websites people like 
 [Submit](https://gethugothemes.com/showcase?submit=show) your Touchy Hugo powered website.
 
 <!-- licence -->
-## License
+## 📄License
 
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
@@ -106,14 +115,14 @@ Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed 
 share those images.
 
 <!-- resources -->
-## Special Thanks
+## 🙏Special Thanks
 
 - [Bootstrap](https://getbootstrap.com)
 - [Font Awesome Icons](https://fontawesome.com)
 - [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/gethugothemes/touchy-hugo/graphs/contributors)
 
-## Hire Us
+## 👨‍💻Hire Us
 
 Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
 
@@ -121,7 +130,7 @@ If you need to customize the theme or complete website development from scratch,
 [Services](https://gethugothemes.com/services/?utm_source=touchy_github&utm_medium=referral&utm_campaign=github_theme_readme)**
 
 <!-- premium themes -->
-## Premium Themes By Us
+## 💎Premium Themes By Us
 
 | [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=touchy_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![editor](https://demo.gethugothemes.com/thumbnails/editor.png)](https://gethugothemes.com/products/editor/) | [![parsa](https://demo.gethugothemes.com/thumbnails/parsa.png)](https://gethugothemes.com/products/parsa/) |
 |:---:|:---:|:---:|
