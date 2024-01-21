@@ -1,30 +1,28 @@
-// navbar
-let navbar = document.querySelector(".navbar");
-let navbarToggle = navbar.querySelector(".navbar-toggle");
+function toggleNavbar() {
+  navbar.classList.toggle("opened");
+  const isOpened = navbar.classList.contains("opened");
+  navbarToggle.setAttribute("aria-label", isOpened ? "Close navigation menu." : "Open navigation menu.");
+}
 
 function openMobileNavbar() {
-	navbar.classList.add("opened");
-	navbarToggle.setAttribute("aria-label", "Close navigation menu.");
+  navbar.classList.add("opened");
+  navbarToggle.setAttribute("aria-label", "Close navigation menu.");
 }
 
 function closeMobileNavbar() {
-	navbar.classList.remove("opened");
-	navbarToggle.setAttribute("aria-label", "Open navigation menu.");
+  navbar.classList.remove("opened");
+  navbarToggle.setAttribute("aria-label", "Open navigation menu.");
 }
 
-navbarToggle.addEventListener("click", () => {
-	if (navbar.classList.contains("opened")) {
-		closeMobileNavbar();
-	} else {
-		openMobileNavbar();
-	}
-});
+function stopPropagation(clickEvent) {
+  clickEvent.stopPropagation();
+}
 
+let navbar = document.querySelector(".navbar");
+let navbarToggle = navbar.querySelector(".navbar-toggle");
 let navbarMenu = navbar.querySelector(".navbar-menu");
 let navbarLinksContainer = navbar.querySelector(".navbar-links");
 
-navbarLinksContainer.addEventListener("click", (clickEvent) => {
-	clickEvent.stopPropagation();
-});
-
+navbarToggle.addEventListener("click", toggleNavbar);
+navbarLinksContainer.addEventListener("click", stopPropagation);
 navbarMenu.addEventListener("click", closeMobileNavbar);
