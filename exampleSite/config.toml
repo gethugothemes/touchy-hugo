@@ -35,10 +35,6 @@ attributes = "defer"
 link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/brands.min.js"
 attributes = "defer"
 
-[[params.plugins.js]]
-link = "plugins/turbolinks/turbolinks.js"
-attributes = "data-turbolinks-suppress-warning defer"
-
 ###################### Navigation ###########################
 
 # main menu
@@ -48,7 +44,7 @@ url = "about/"
 weight = 1
 
 [[menu.main]]
-name = "Elemetns"
+name = "Elements"
 url = "elements/"
 weight = 2
 
