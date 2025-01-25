@@ -1,0 +1,10 @@
+######################## default configuration ####################
+baseURL = "https://demo.gethugothemes.com/touchy/examplesite/"
+title = "Touchy Hugo | Minimal Blog Theme"
+theme = "touchy-hugo"
+# post pagination
+pagination.pagerSize = "3"
+# post excerpt
+summaryLength = "50"
+# google analytics
+googleAnalytics = "" # example : UA-123-45

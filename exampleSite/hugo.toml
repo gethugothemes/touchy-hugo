@@ -1,15 +1,6 @@
-######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/touchy/examplesite/"
-title = "Touchy Hugo | Minimal Blog Theme"
-theme = "touchy-hugo"
-# post pagination
-paginate = "3"
-# post excerpt
-summaryLength = "50"
-# google analytics
-googleAnalytics = "" # example : UA-123-45
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+
+[services.disqus]
+shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 
 
 ############################# Outputs ##############################
@@ -34,29 +25,6 @@ attributes = "defer"
 [[params.plugins.js]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/brands.min.js"
 attributes = "defer"
-
-###################### Navigation ###########################
-
-# main menu
-[[menu.main]]
-name = "About"
-url = "about/"
-weight = 1
-
-[[menu.main]]
-name = "Elements"
-url = "elements/"
-weight = 2
-
-[[menu.main]]
-name = "Terms & Conditions"
-url = "terms-conditions/"
-weight = 3
-
-[[menu.main]]
-name = "Contact"
-url = "contact/"
-weight = 4
 
 #################### default parameters ############################
 [params]

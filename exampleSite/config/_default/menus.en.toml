@@ -1,0 +1,22 @@
+
+###################### Navigation ###########################
+# main menu
+[[main]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[main]]
+name = "Elements"
+url = "elements/"
+weight = 2
+
+[[main]]
+name = "Terms & Conditions"
+url = "terms-conditions/"
+weight = 3
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 4
