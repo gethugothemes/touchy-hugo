@@ -3,7 +3,7 @@
   command = "hugo --gc --themesDir ../.. --minify --templateMetrics --templateMetricsHints --forceSyncStatic"
   
 [build.environment]
-  HUGO_VERSION = "0.118.0"
+  HUGO_VERSION = "0.147.2"
   HUGO_BASEURL = "/"
 
 [[headers]]
