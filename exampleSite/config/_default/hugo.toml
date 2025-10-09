@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/touchy/examplesite/"
+baseURL = "/"
 title = "Touchy Hugo | Minimal Blog Theme"
 theme = "touchy-hugo"
 # post pagination
