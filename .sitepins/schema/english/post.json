@@ -1,0 +1,58 @@
+{
+  "file": "exampleSite/content/english/post/post-1.md",
+  "name": "post",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "Perfect For Fashion",
+      "defaultValue": "Perfect For Fashion"
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "Date",
+      "value": "2020-09-01T05:07:10.000Z",
+      "defaultValue": "2020-09-01T05:07:10.000Z",
+      "alwaysUseCurrentDate": false
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "type": "media",
+      "value": "images/blog/blog-1.jpg",
+      "defaultValue": "images/blog/blog-1.jpg"
+    },
+    {
+      "name": "image_webp",
+      "label": "Image Webp",
+      "type": "media",
+      "value": "images/blog/blog-1.webp",
+      "defaultValue": "images/blog/blog-1.webp"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "string",
+      "value": "this is meta description",
+      "defaultValue": "this is meta description"
+    },
+    {
+      "name": "categories",
+      "label": "Categories",
+      "type": "Array",
+      "value": [],
+      "defaultValue": ""
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": false
+    }
+  ]
+}
