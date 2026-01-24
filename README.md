@@ -1,7 +1,7 @@
 <h1 align=center>Touchy Hugo </h1>
 <p align=center>Touchy is a minimal personal blog theme powered by Hugo. This theme is 100% mobile responsive. </p>
 
-<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/touchy/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftouchy%2Fsite%2F&form_factor=desktop">Page Speed (89%)🚀</a> </h2>
+<h2 align="center"> <a target="_blank" href="https://gethugothemes.com/products/touchy" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-touchy-hugo-vercel-app/u50ekrjjdd?form_factor=desktop">Page Speed (89%)🚀</a> </h2>
 
 
 <p align=center>
