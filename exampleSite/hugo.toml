@@ -1,8 +1,4 @@
 
-[services.disqus]
-shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
-
-
 ############################# Outputs ##############################
 [outputs]
 home = ["HTML", "RSS"]
@@ -47,6 +43,12 @@ custom_script = ""
 [params.cookies]
 enable = false
 expire_days = 2
+
+# OpenRemark comments
+[params.open_remark]
+enable = true
+site_key = "cmqnb3wd5000104kww7862ku4" # your site key from the OpenRemark dashboard
+embed_url = "https://open-remark.zeon.studio/embed.js"
 
 ############################# social site ########################
 [[params.social]]
